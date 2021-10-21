@@ -1,0 +1,3 @@
+[filter "replace_companies"]
+    clean = sed -e 's/Nxtr/Nxtr/g' -e 's/Vctr I/Vctr I/g' -e 's/NXTR/NXTR/g'
+	smudge = cat
